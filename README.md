@@ -1,6 +1,6 @@
 # Project Management Database
 
-This project is a simple **Project Management System** built with Oracle SQL.  
+This project is a simple ** It Project Management System** built with Oracle SQL.  
 It includes 4 main tables:
 
 - `EMPLOYEES` → Stores employee details  
