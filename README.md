@@ -1,28 +1,19 @@
-# Project Management Database
+# 🚀 IT Project Management System
 
-This project is a simple ** It Project Management System** built with Oracle SQL.  
-It includes 4 main tables:
+A simple **Project Management Database** built with **Oracle SQL**.  
+It manages **Employees, Projects, Tasks, and Allocations**.
 
-- `EMPLOYEES` → Stores employee details  
-- `PROJECTS` → Stores project details  
-- `TASKS` → Stores project tasks  
-- `ALLOCATIONS` → Links employees to tasks  
-
-## 📂 Files
-- `01_schema.sql` → Table creation scripts  
-- `02_sample_data.sql` → Sample data inserts  
-- `03_queries.sql` → Example queries  
+## 📂 Repository Structure
+- `sql/` → Schema, data, and queries  
+- `scripts/` → Master SQL script runner  
+- `docs/` → Documentation and ERD diagram  
+- `README.md` → Project details  
 
 ## 🚀 How to Run
-1. Open Oracle SQL*Plus or SQL Developer.  
-2. Run `01_schema.sql` to create tables.  
-3. Run `02_sample_data.sql` to insert records.  
-4. Run queries from `03_queries.sql` to test.  
+1. Run `sql/01_schema.sql` → Creates tables  
+2. Run `sql/02_sample_data.sql` → Inserts sample data  
+3. Run `sql/03_queries.sql` → Example queries  
 
-## 📊 Example Queries
-- Find all employees working on Project 202.  
-- Total hours worked per employee.  
-- Tasks distribution across projects.  
-
----
-✅ Created by *Sudarshan Rambhau Pawar*
+OR run everything at once:
+```sql
+@scripts/run_all.sql
